@@ -1,0 +1,22 @@
+[
+  {
+    "source":"market_regime",
+    "chunk_id":0,
+    "text":"Risk-on regimes generally favor equities, while defensive positioning emphasizes cash flow quality, lower drawdown, and balance sheet strength."
+  },
+  {
+    "source":"portfolio_construction",
+    "chunk_id":0,
+    "text":"A diversified portfolio should balance expected return, volatility, and correlation across sectors, factors, and capitalizations."
+  },
+  {
+    "source":"earnings_quality",
+    "chunk_id":0,
+    "text":"Sustainable earnings are supported by margin expansion, recurring revenue, prudent leverage, and positive operating cash flow."
+  },
+  {
+    "source":"sentiment_signal",
+    "chunk_id":0,
+    "text":"Sentiment should be used as a context feature rather than a sole signal. It is most useful when combined with price momentum and liquidity measures."
+  }
+]

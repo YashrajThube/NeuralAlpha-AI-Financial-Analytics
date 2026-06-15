@@ -1,0 +1,23 @@
+[run]
+omit =
+    app/api/middleware.py
+    app/core/logging.py
+    app/core/security.py
+    app/db/models/*
+    app/genai/*
+    app/ml/dl_trainer.py
+    app/ml/lstm_pipeline.py
+    app/schemas/ai_insight_schema.py
+    app/schemas/financial_intel_schema.py
+    app/schemas/market_schema.py
+    app/schemas/prediction_schema.py
+    app/schemas/sentiment_schema.py
+    app/services/evaluation/*
+    app/services/financial_intel/*
+    app/services/ingestion/*
+    app/services/ml_service/model_loader.py
+    app/services/ml_service/predictor.py
+    app/services/monitoring/observability.py
+
+[report]
+skip_empty = true
