@@ -1,28 +1,28 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.pytest_cache/
-.mypy_cache/
-.coverage
+# Logs
+*.log
+*.err.log
+*.out.log
 
-# Virtual environments
+# Videos
+*.mp4
+
+# Datasets
+*.csv
+
+# Python
 .venv/
 venv/
-venv*/
+__pycache__/
+*.pyc
 
-# Backend runtime data
-backend/data/*.db
+# ML Models
+*.pkl
+*.joblib
+*.keras
 
-# Frontend
-frontend/node_modules/
-frontend/dist/
-
-# Environment files
+# Environment
 .env
 backend/.env
-frontend/.env
 
-# IDE
+# VS Code
 .vscode/
