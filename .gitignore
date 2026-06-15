@@ -1,28 +1,11 @@
-# Logs
-*.log
-*.err.log
-*.out.log
+# Coverage
+.coverage
+backend/.coverage
 
-# Videos
-*.mp4
+# Frontend
+frontend/node_modules/
+frontend/dist/
 
-# Datasets
-*.csv
-
-# Python
-.venv/
-venv/
-__pycache__/
-*.pyc
-
-# ML Models
-*.pkl
-*.joblib
-*.keras
-
-# Environment
-.env
-backend/.env
-
-# VS Code
-.vscode/
+# Build artifacts
+dist/
+build/
